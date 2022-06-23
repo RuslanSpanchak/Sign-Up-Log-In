@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HW</title>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	<div class="wrap">
+		
+		<div class="container">
+			
+			<div class="top">
+				
+				<div class="enter_choose">
+					
+					<div class="enter signUp" id="signUp">Sign Up</div>
+					<div class="enter logIn" id="logIn">Log In</div>
+
+				</div>
+
+			</div>
+
+			<div class="enter_way">
+				
+				<div class="enter_way_text">Choose A Login Method</div>
+
+			</div>
+
+			<div class="center">
+
+				<div class="password_hint">
+					
+					<div class="password_hint_text small">Ім'я, та прізвище повинне починатися з великої літери</div>
+
+				</div>
+				
+				<div class="row">
+					
+					<input type="text" class="input" id="first_name" placeholder="First Name" name="">
+					<input type="text" class="input" id="last_name" placeholder="Last Name" name="">
+
+				</div>
+
+				<div class="password_hint">
+					
+					<div class="password_hint_text small">У емейл адресі повинен бути спеціальний символ ('@')</div>
+
+				</div>
+
+				<input type="text" class="input gmail" id="email" placeholder="Email Address" name="">
+
+				<div class="password_hint">
+					
+					<div class="password_hint_text">Пароль повинен бути не менше 6 елементів, та не більше 20 елементів.<br> Також у паролі повинні бути: маленькі букви, великі букви, та спеціальні символи ('!', '@', '#', '$', '%', 'ˆ', '&', '*')</div>
+
+				</div>
+
+				<input type="password" class="input password" id="password" placeholder="Set Password" name="">
+
+				<div class="password_hint">
+					
+					<div class="password_hint_text small">Пароль повинні бути одинакові</div>
+
+				</div>
+
+				<input type="password" class="input password" id="password_repeat" placeholder="Repeat Password" name="">
+
+			</div>
+
+			<div class="bottom">
+				
+				<div class="btn" id="btn">GET STARTED</div>
+
+			</div>
+
+			<div class="bottom_logIn">
+				
+				<div class="btn" id="btn_logIn">GET STARTED</div>
+
+			</div>
+
+			<div class="register_done">
+				
+				<div class="register_done_text"></div>
+
+				<div class="user">
+					
+					<div class="user_info firstName"></div>
+					<div class="user_info lastName"></div>
+					<div class="user_info email"></div>
+					<div class="user_info password_level">Password Level: <span class="protected">Protected</span></div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
